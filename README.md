@@ -26,4 +26,4 @@
 5 directories, 12 files
 ```
 
-另外提供Vercel平台的部署链接：[https://datavis-vite-ark4p6srx-han-wangyu.vercel.app/](https://datavis-vite-ark4p6srx-han-wangyu.vercel.app/)
+另外提供Vercel平台的部署链接：[https://datavis-vite.vercel.app/](https://datavis-vite.vercel.app/)
