@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>江苏省交通流量可视化大屏</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./lib/echarts.min.js"></script>
+    <script src="./lib/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/data.js"></script>
+</head>
+
+<body>
+    <div class="title">
+        江苏省交通流量可视化大屏
+    </div>
+    <div class="grid-container">
+        <div class="grids">
+            <div class="grid-item">
+                <div class="item-number">1.4</div>
+                <div class="item-text">区域拥堵指数</div>
+            </div>
+            <div class="grid-item">
+                <div class="item-number">50</div>
+                <div class="item-text">当日警情数</div>
+            </div>
+            <div class="grid-item">
+                <div class="item-number">500</div>
+                <div class="item-text">累计警情数</div>
+            </div>
+            <!-- <div class="grid-item">
+                <div class="item-number">500</div>
+                <div class="item-text">现有确诊</div>
+            </div>
+            <div class="grid-item">
+                <div class="item-number">500</div>
+                <div class="item-text">无症状感染者</div>
+            </div>
+            <div class="grid-item">
+                <div class="item-number">500</div>
+                <div class="item-text">境外输入</div>
+            </div> -->
+        </div>
+    </div>
+    <div id="left1">
+        left1
+    </div>
+    <div id="left2">
+        left2
+    </div>
+    <div id="main">main</div>
+    <div id="right1">
+        right1
+    </div>
+    <div id="right2">
+        right2
+    </div>
+
+    <!-- scripts  -->
+    <script type="text/javascript" src="./js/left1.js"></script>
+    <script type="text/javascript" src="./js/left2.js"></script>
+    <script type="text/javascript" src="./js/center_map.js"></script>
+    <script type="text/javascript" src="./js/right1.js"></script>
+    <script type="text/javascript" src="./js/right2.js"></script>
+</body>
+
+</html>
